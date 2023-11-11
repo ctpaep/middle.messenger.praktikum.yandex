@@ -1,0 +1,30 @@
+.reg_form {
+  width: 340px;
+  height: 620px;
+  background-color: #264F78;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+
+  background-color: #264F78;
+  color: F0F0F0;
+  border: none;
+}
+
+input :active{
+  background-color: #264F78;
+  border: none;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #F0F0F0;
+}
