@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="./registration.js"></script>
+    <script defer type="module" src="./registration.js"></script>
     <title>Registration</title>
 </head>
 
 <div class="registration-page">
     {{title}}
 </div>
-<form class="reg_form container" action="" method="post" name="reg_form">
+<form id="myForm"  class="reg_form container" action="" method="post"  name="reg_form">
     <h1 class="header">Регистрация</h1>
     <div class="input email">
         <label>Почта</label>
@@ -52,8 +52,10 @@
         <hr align="center" width="280" size="2" color="#3369F3" />
     </div>
     <div class="reg-buttom">
-        <button type="submit">Авторизоватся</button>
-        <a href="">Нет аккаунта</a>
+        <center>
+        <button type="submit">Создать пользователя</button><br>
+        <a href="">Войти</a>
+        </center>
 
 </form>
 

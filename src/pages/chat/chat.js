@@ -1,5 +1,6 @@
-import './chat.scss'
 import data from './mockChat.json'
+import './chat.scss'
+
 const result = data.map(d => {
     return `<div class = "chat-item">
     <div class="chat-avatar">
