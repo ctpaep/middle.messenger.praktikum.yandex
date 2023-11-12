@@ -2,12 +2,12 @@ import {resolve} from 'path'
 import {defineConfig} from 'vite'
 import handlebars from 'vite-plugin-handlebars';
 
-const pageData = {
+const global = {
     '/index.html': {
         title: 'Main Page',
     },
-    '/pages/login/index.html': {
-        title: 'Sub Page',
+    'src/pages/registration/index.html': {
+        title: 'Регистрация',
     },
 };
 
