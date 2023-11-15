@@ -1,0 +1,59 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.scss">
+    <link rel="stylesheet" href="./registration.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer type="module" src="./registration.js"></script>
+    <title>Registration</title>
+</head>
+<main class="center">
+<form id="myForm"  class="reg_form container" action="" method="post"  name="reg_form">
+    <h1 class="header">Регистрация</h1>
+    <div class="input email">
+        <label>Почта</label>
+        <input id="email" name="email" required="required" type="email" placeholder="pochta@yandex.ru"/>
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="input login">
+        <label>Логин</label>
+        <input id="login" name="login" required="required" type="text" placeholder="ivanivanov"/>
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="input username">
+        <label>Имя</label>
+        <input id="username" name="first_name" required="required" type="text" placeholder="Иван"/>
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="input familyname">
+        <label>Фамилия</label>
+        <input id="second_name" name="second_name" required="required" type="text" placeholder="Иванов"/>
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="input phone">
+        <label>Телефон</label>
+        <input id="phone" name="phone" required="required" type="tel" placeholder="+7 (909) 967 30 30"/>
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="input password">
+        <label>Пароль</label>
+        <input id="password" name="password" required="required" type="password" placeholder="*********" />
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="input password">
+        <label>Пароль еще раз</label>
+        <input id="passwordSecond" name="passwordSecond" required="required" type="password" placeholder="*********" />
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="reg-buttom">
+        <center>
+        <button type="submit">Создать пользователя</button><br>
+        <a href="">Войти</a>
+        </center>
+
+</form>
+</main>
+</html>

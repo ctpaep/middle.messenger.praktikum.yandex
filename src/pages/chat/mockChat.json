@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "my-chat",
+    "avatar": "/123/avatar1.jpg",
+    "unread_count": 2,
+    "created_by": 12345,
+    "last_message": {
+      "user": {
+        "first_name": "Andrei",
+        "second_name": "Pupkin",
+        "avatar": "/path/to/avatar.jpg",
+        "email": "my@email.com",
+        "login": "userLogin",
+        "phone": "8(911)-222-33-22"
+      },
+      "time": "2020-01-02T14:22:22.000Z",
+      "content": "Друзья, у меня для вас особенный выпуск новостей!..."
+    }
+  },
+  {
+    "id": 2,
+    "title": "my-chat",
+    "avatar": "/123/avatar1.jpg",
+    "unread_count": 0,
+    "created_by": 12345,
+    "last_message": {
+      "user": {
+        "first_name": "Petya",
+        "second_name": "Pupkin",
+        "avatar": "/path/to/avatar.jpg",
+        "email": "my@email.com",
+        "login": "userLogin",
+        "phone": "8(911)-222-33-22"
+      },
+      "time": "2020-01-02T14:22:22.000Z",
+      "content": "И Human Interface Guidelines и Material Design рекомендуют..."
+    }
+  },
+  {
+    "id": 3,
+    "title": "my-chat",
+    "avatar": "/123/avatar1.jpg",
+    "unread_count": 4,
+    "created_by": 12345,
+    "last_message": {
+      "user": {
+        "first_name": "Kinoklub",
+        "second_name": "Kinopoisk",
+        "avatar": "/path/to/avatar.jpg",
+        "email": "my@email.com",
+        "login": "userLogin",
+        "phone": "8(911)-222-33-22"
+      },
+      "time": "2020-01-02T14:22:22.000Z",
+      "content": "Миллионы россиян ежедневно проводят десятки часов свое..."
+    }
+  },
+  {
+    "id": 4,
+    "title": "my-chat",
+    "avatar": "/123/avatar1.jpg",
+    "unread_count": 0,
+    "created_by": 12345,
+    "last_message": {
+      "user": {
+        "first_name": "Vadim",
+        "second_name": "Pupkin",
+        "avatar": "/path/to/avatar.jpg",
+        "email": "my@email.com",
+        "login": "userLogin",
+        "phone": "8(911)-222-33-22"
+      },
+      "time": "2020-01-02T14:22:22.000Z",
+      "content": "В 2008 году художник Jon Rafman  начал собирать..."
+    }
+  },
+  {
+    "id": 5,
+    "title": "my-chat",
+    "avatar": "/123/avatar1.jpg",
+    "unread_count": 0,
+    "created_by": 12345,
+    "last_message": {
+      "user": {
+        "first_name": "Design Destroyer",
+        "second_name": "Pupkin",
+        "avatar": "/path/to/avatar.jpg",
+        "email": "my@email.com",
+        "login": "userLogin",
+        "phone": "8(911)-222-33-22"
+      },
+      "time": "2020-01-02T14:22:22.000Z",
+      "content": "Так увлёкся работой по курсу, что совсем забыл его анонсир..."
+    }
+  },
+  {
+    "id": 6,
+    "title": "my-chat",
+    "avatar": "/123/avatar1.jpg",
+    "unread_count": 0,
+    "created_by": 12345,
+    "last_message": {
+      "user": {
+        "first_name": "Tet-a-tet",
+        "second_name": "Pupkin",
+        "avatar": "/path/to/avatar.jpg",
+        "email": "my@email.com",
+        "login": "userLogin",
+        "phone": "8(911)-222-33-22"
+      },
+      "time": "2020-01-02T14:22:22.000Z",
+      "content": "Можно или сегодня или завтра вечером."
+    }
+  }
+]

@@ -1,0 +1,36 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.scss">
+    <link rel="stylesheet" href="/pages/login/login.scss">
+    <script defer type="module" src = './login.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+</head>
+<main>
+<div class="login-page">
+    {{title}}
+</div>
+
+<form class="login_form container" action="" method="post" name="login_form">
+    <h1>Вход</h1>
+    <div class="input login">
+        <label>Логин</label>
+        <input id="username" name="login" required="required" type="text" placeholder="ivanivanov"/>
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="input password">
+        <label>Пароль</label>
+        <input id="password" name="password" required="required" type="password" placeholder="*********" />
+        <hr align="center" width="280" size="2" color="#3369F3" />
+    </div>
+    <div class="login-buttom">
+    <button type="submit">Авторизоватся</button>
+    <a href="../registration/index.html">Нет аккаунта</a>
+    </div>
+</form>
+</main>
+</html>

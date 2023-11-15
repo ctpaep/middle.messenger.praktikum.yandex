@@ -1,0 +1,25 @@
+//.login-page {
+//  height: 100vh;
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//}
+//.login-page .modal {
+//  height: 450px;
+//}
+.login_form {
+  min-width: 340px;
+  min-height: 450px;
+  background-color: rgba(38, 79, 120, 1);
+  border-radius: 12px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.login-buttom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+}

@@ -1,0 +1,55 @@
+main {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-grow: 1
+}
+
+.backspace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 65px;
+  background-color: #3C3C3C;
+  border-right: #EAEAEA solid 1px;
+}
+.svg-wrapper{
+  position: relative;
+  z-index: 1;
+  background: #40A6FF;
+  clip-path: circle(50%);
+  height: 130px;
+  width: 130px;
+}
+
+.svg {
+  position: relative;
+  top: 45px;
+  left:45px
+
+}
+
+.input {
+  border-bottom: 2px solid #3369F3;
+  display: flex;
+  justify-content: space-between;
+  width: 510px;
+
+  label {
+    float: left;
+  }
+  input {
+    float: right;
+    border: none;
+    background-color: #252526;
+    color: #999999;
+  }
+  input:active {
+    border: none;
+  }
+}
+
+.red {
+  color: #FF0000;
+}
